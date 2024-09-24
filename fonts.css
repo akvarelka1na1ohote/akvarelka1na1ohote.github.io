@@ -9,3 +9,12 @@ p {
     color: #786761;
     font-size: 30px;
 }
+
+
+.testimonials-title {
+    color: rgba(120, 103, 97, 1);
+    margin-top: 272px;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: Comfortaa;
+}

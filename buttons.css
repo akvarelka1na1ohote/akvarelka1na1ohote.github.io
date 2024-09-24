@@ -12,20 +12,41 @@
     background-color: #C49686;
     color:#F0E9E3;
     padding: 11px 23px;
+    font-size: 20px;
+    font-family: Comfortaa;
 }
 
 .cta-button-inner:hover {
-    background-color: #ffffff;
+    background-color: #F0E9E3;
     color: #C49686;
-    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 10px 2px #786761;
     transition-duration: 0.2s;
+    font-size: 20px;
+    font-family: Comfortaa;
 }
   
-.catalog-button {
+.catalog-button-1 {
     border-radius: 20px;
     background-color: #C49686;
-    display: flex;
+    color:#F0E9E3;
+    /* padding: 11px 23px; */
+    /* display: flex; */
     gap: 17px;
+    padding: 22px 19px;
+    font-size: 20px;
+    font-family: Comfortaa;
+}
+
+
+.catalog-button-1:hover {
+    background-color: #F0E9E3;
+    color: #C49686;
+    box-shadow: 0px 0px 10px 2px #786761;
+    transition-duration: 0.2s;
+    font-size: 20px;
+    font-family: Comfortaa;
+    /* display: flex; */
+    /* gap: 17px; */
     padding: 22px 19px;
 }
   
