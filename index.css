@@ -296,6 +296,7 @@
     display: flex;
     gap: 20px;
     align-items: center;
+    
 
 }
 
@@ -308,6 +309,7 @@
 .catalog-item-small {
     width: 305px;
     height: 433px;
+    border-radius: 34px;
 }
 
 .catalog-item-large {
@@ -366,12 +368,23 @@
 
 
 .custom-toy-section {
+    align-self: end;
+    display: block;
+    width: 100%;
+    max-width: 1285px;
+    flex-direction: column;
+    margin-top: 116px;
+    margin-left: auto;
+    margin-right: auto;
+
+/* 
+
     display: flex;
     flex-grow: 1;
     flex-direction: column;
     align-items: start;
     font-family: Comfortaa;
-    color: rgba(120, 103, 97, 1);
+    color: rgba(120, 103, 97, 1); */
 }
 
 .custom-toy-title {
@@ -484,7 +497,7 @@
     display: flex;
 }
 
-.catalog-item-small {
+.review-item-small {
     width: 305px;
     height: 433px;
 }
@@ -529,7 +542,7 @@
         gap: 0;
     }
 
-    .catalog-item-small,
+    .review-item-small,
     .catalog-item-large {
         margin: 20px auto 0;
         max-width: 100%;
@@ -619,3 +632,12 @@
     right: 50px;
     z-index: 1;
 } */
+
+
+
+
+.perfect_toy {
+    display: flex;
+    gap: 101px;
+    align-items: stretch;
+}
