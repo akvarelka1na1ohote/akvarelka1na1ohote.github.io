@@ -43,7 +43,7 @@
 
 @media (max-width: 991px) {
     .navigation-menu {
-    max-width: 100%;
+        max-width: 100%;
     }
 }
 
@@ -165,39 +165,7 @@
     flex-wrap: wrap;
 }
   
-.cta-button {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    flex-grow: 1;
-    flex-basis: 0;
-    width: fit-content;
-}
-  
-.cta-button-inner {
-    border-radius: 20px;
-    background-color: #C49686;
-    padding: 11px 23px;
-}
 
-.cta-button-inner:hover {
-    background-color: #ffffff;
-    color: #C49686;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    transition-duration: 0.2s;
-}
-  
-.catalog-button {
-    border-radius: 20px;
-    background-color: #C49686;
-    display: flex;
-    gap: 17px;
-    padding: 22px 19px;
-}
-  
-.catalog-button-text {
-    flex-grow: 1;
-}
   
 .catalog-icon {
     aspect-ratio: 1.6;
@@ -259,11 +227,11 @@
         align-items: flex-end;
     }
   
-    .cta-button-inner {
+    /* .cta-button-inner {
     }
   
     .catalog-button {
-    }
+    } */
   
     .decoration-image {
         margin-top: 40px;
@@ -337,24 +305,7 @@
     margin-top: 85px;
 }
 
-.catalog-button {
-    border-radius: 20px;
-    background-color: #c49686;
-    display: flex;
-    gap: 17px;
-    padding: 16px 19px;
-    align-items: center;
-}
 
-.catalog-button-text {
-    flex-grow: 1;
-}
-
-.catalog-button-icon {
-    aspect-ratio: 1.72;
-    object-fit: contain;
-    width: 24px;
-}
 
 .visually-hidden {
     position: absolute;
@@ -416,17 +367,7 @@
     margin-top: 59px;
 }
 
-.custom-toy-button {
-    border-radius: 20px;
-    background-color: rgba(196, 150, 134, 1);
-    margin-top: 59px;
-    font-size: 21px;
-    color: rgba(240, 233, 227, 1);
-    text-align: center;
-    padding: 16px 49px;
-    border: none;
-    cursor: pointer;
-}
+
 
 @media (max-width: 991px) {
     .custom-toy-section {
@@ -547,24 +488,7 @@
     margin-top: 85px;
 }
 
-.catalog-button {
-    border-radius: 20px;
-    background-color: #c49686;
-    display: flex;
-    gap: 17px;
-    padding: 16px 19px;
-    align-items: center;
-}
 
-.catalog-button-text {
-    flex-grow: 1;
-}
-
-.catalog-button-icon {
-    aspect-ratio: 1.72;
-    object-fit: contain;
-    width: 24px;
-}
 
 .visually-hidden {
     position: absolute;
@@ -672,3 +596,11 @@
         max-width: 100%;
     }
 }
+
+
+/* .fix {
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+    z-index: 1;
+} */

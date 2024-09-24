@@ -6,6 +6,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="buttons.css">
+    <link rel="stylesheet" href="picture.css">
     <link rel="stylesheet" href="index.css">
 
 </head>
@@ -37,10 +39,10 @@
     
         
     <section class="introduction-container">
-        <div class="flex-container">
+        <div class="flex-container" id="main">
             <div class="image-column">
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/808bd2bce690de50c82a6471d6ce9da5156876d7991b370155351df50414b39d?placeholderIfAbsent=true&apiKey=9d5b60779a8442acadf65418b20b9871" class="profile-image" alt="Мастерица Аннушка" />
-            </div>
+                <img loading="lazy" src="images/me.png" alt="Подняться вверх">
+        </div>
             <div class="text-column">
             <div class="text-content">
                 <h1 class="introduction-title">Давайте знакомиться!</h1>
@@ -68,10 +70,19 @@
             </div>
             </div>
         </div>
-        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/1a7a3b79149ee06a9ee52ee249f52dc3eb4ffe36aeb0f86d4980c8740aa6e76f?placeholderIfAbsent=true&apiKey=9d5b60779a8442acadf65418b20b9871" class="decoration-image" alt="" />
+        <!-- <img loading="lazy" class="fix" src="images/go_up.png" alt="Подняться вверх"> -->
     </section>
     
+
+    <!-- <h1>Кнопка-изображение &lt;input&gt;</h1>
+		<input type="image" src="images/go_up.png" alt="Подняться вверх">
+     -->
+    <a href="#main">
+        <img loading="lazy" class="fix" src="images/go_up.png" alt="Подняться вверх">
+
+    </a>
     
+
     <section class="favorite-toys">
         <h2 class="favorite-toys-title">Любимые игрушки моих клиентов</h2>
     </section>

@@ -1,0 +1,11 @@
+@font-face {
+    font-family: Comfortaa;
+    src: url('./fonts/Comfortaa.ttf') format('ttf');
+}
+
+
+p {
+    font-family: 'Comfortaa';
+    color: #786761;
+    font-size: 30px;
+}
