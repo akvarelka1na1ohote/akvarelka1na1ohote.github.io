@@ -12,14 +12,14 @@
 
 </head>
 <body>
-    <header class="navigation-container" id="main">
+    <header class="navigation-container">
         <nav class="navigation-content">
         <div class="navigation-menu">
             <img class="logo" src="images/logo 4.png" alt="Логотип компании">
             
             <a href="#" class="menu-item">главная</a>
             <a href="#" class="menu-item">каталог</a>
-            <a href="#" class="menu-item">индивидуальный заказ</a>
+            <a href="#own_order" class="menu-item">индивидуальный заказ</a>
             <a href="#" class="menu-item">отзывы</a>
         </div>
         <div class="social-icons">
@@ -39,7 +39,7 @@
     
     
         
-    <section class="introduction-container">
+    <section class="introduction-container" id="main">
         <div class="flex-container">
             <div class="image-column">
                 <img loading="lazy" src="images/me.png" alt="Подняться вверх">
@@ -79,7 +79,7 @@
     <!-- <h1>Кнопка-изображение &lt;input&gt;</h1>
 		<input type="image" src="images/go_up.png" alt="Подняться вверх">
      -->
-    <a href="#main">
+    <a href="#">
         <img loading="lazy" class="fix_arrow" src="images/go_up.png" alt="Подняться вверх">
 
     </a>
@@ -89,54 +89,54 @@
         <h2 class="favorite-toys-title">Любимые игрушки моих клиентов</h2>
     </section> -->
     
-    <h2 class="favorite-toys-title">Любимые игрушки моих клиентов</h2>
+    <!-- <h2 class="favorite-toys-title">Любимые игрушки моих клиентов</h2> -->
 
     <section class="catalog-section">
-        
-        <img src="images/left_strelka.png" alt="посмотреть вариант слева" class="catalog-arrow" />
+        <h2 class="favorite-toys-title">Любимые игрушки моих клиентов</h2>
+        <!-- <img src="images/left_strelka.png" alt="посмотреть вариант слева" class="catalog-arrow" /> -->
         <div class="catalog-content">
-        <div class="catalog-items">
-            <div class="catalog-item catalog-item-small">
-                <img src="images/chicken.png" alt="Слева игрушка цыплёнок">
+            <img src="images/left_strelka.png" alt="посмотреть вариант слева" class="catalog-arrow-left" />
+            
+            <div class="catalog-items">
+                <div class="catalog-item catalog-item-small">
+                    <img src="images/chicken.png" class="image_karusel" alt="Слева игрушка цыплёнок">
+                </div>
+                <div class="catalog-item catalog-item-large">
+                    <img src="images/capybara.png" class="image_karusel" alt="По центру игрушка капибара">
+                </div>
+                <!-- <div class="catalog-cta"> -->
+                <div class="catalog-item catalog-item-small">
+                    <img src="images/rabbit.png" class="image_karusel" alt="Справа игрушка кролик">
+                </div>
+                <!-- <div class="cta-button">
+                    <button class="catalog-button-1">
+                        Перейти в каталог
+                    </button>
+                </div> -->
             </div>
-            <div class="catalog-item catalog-item-large">
-                <img src="images/capybara.png" alt="По центру игрушка капибара">
-            </div>
-            <!-- <div class="catalog-cta"> -->
-            <div class="catalog-item catalog-item-small">
-                <img src="images/rabbit.png" alt="Справа игрушка кролик">
-            </div>
-            <!-- <div class="cta-button">
-                <button class="catalog-button-1">
-                    Перейти в каталог
-                </button>
-            </div> -->
-            </div>
+
+            <img src="images/right_strelka.png" alt="посмотреть вариант справа" class="catalog-arrow-right" />
         </div>
-        </div>
-        <img src="images/right_strelka.png" alt="посмотреть вариант справа" class="catalog-arrow" />
+        <!-- <img src="images/right_strelka.png" alt="посмотреть вариант справа" class="catalog-arrow" /> -->
     </section>
     
-    <div class="cta-button">
-        <button class="catalog-button-1">
-            Перейти в каталог
-        </button>
-    </div>
+    
+    <button class="catalog-button-1">
+        Перейти в каталог
+    </button>
     
     
-    <section class="custom-toy-section">
+    
+    <section class="custom-toy-section" id="own_order">
         <div class="perfect_toy">
             <div class="text-column">
             <div class="text-content"></div>
                 <h2 class="custom-toy-title">Не нашли идеальную игрушку?</h2>
                 <p class="custom-toy-description">Мы сделаем её специально для вас! Заполните форму, и мы свяжемся с вами!</p>
                 <!-- <button class="custom-toy-button" tabindex="0">Заполнить форму</button> -->
-                <div class="cta-button">
-                    <button class="cta-button-inner">
+                    <button class="cta-button-inner-2">
                         Заполнить форму
-                    </button>
-                </div>
-        
+                    </button>        
             </div>
             <div class="image-column">
                 <img loading="lazy" src="images/perfect_toy.png" alt="Подняться вверх">
@@ -170,12 +170,12 @@
     
     <section class="review-section">
         <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/587fbfe9ee57c2bb8f78766925781543a18610b53f91ab72e764ae7b6da594ce?placeholderIfAbsent=true&apiKey=9d5b60779a8442acadf65418b20b9871" alt="" class="catalog-arrow" />
-        <div class="catalog-content">
-        <div class="catalog-items">
-            <div class="catalog-item catalog-item-small"></div>
-            <div class="catalog-item catalog-item-large"></div>
+        <div class="review-content">
+        <div class="review-items">
+            <div class="review-item catalog-item-small"></div>
+            <div class="review-item catalog-item-large"></div>
             <div class="catalog-cta">
-            <div class="catalog-item catalog-item-small"></div>
+            <div class="review-item catalog-item-small"></div>
             <div class="cta-button">
                 <button class="catalog-button-1">
                     Перейти в каталог
@@ -193,24 +193,24 @@
     <footer class="footer">
         <div class="footer-content">
         <nav class="nav-links">
-            <a href="#home">главная</a>
-            <a href="#catalog">каталог</a>
-            <a href="#custom-order">Индивидуальный заказ</a>
-            <a href="#reviews">отзывы</a>
+            <a href="#home" class="footer-item">Главная</a>
+            <a href="#catalog" class="footer-item">Каталог</a>
+            <a href="#own-order" class="footer-item">Индивидуальный заказ</a>
+            <a href="#reviews" class="footer-item">Отзывы</a>
         </nav>
         <div class="social-links">
             <a href="#" class="social-link">
-            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/e43fa56561fcc738376e4430e63a9634f4fff10224cdbcc17f2f6a17ec0d6126?placeholderIfAbsent=true&apiKey=9d5b60779a8442acadf65418b20b9871" alt="" class="social-icon" />
-            <span class="visually-hidden">Instagram</span>
-            <span>akvarelka_na_ohote</span>
+            <img src="images/vk.png" alt="" class="social-icon" />
+            <span class="visually-hidden">Vk</span>
+            <span class="footer-item">akvarelka_na_ohote</span>
             </a>
             <a href="#" class="social-link">
-            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/c22bf9e6f9026179089570b344cf8488f5781b250bb2066f84052e71e691b95c?placeholderIfAbsent=true&apiKey=9d5b60779a8442acadf65418b20b9871" alt="" class="social-icon" />
-            <span class="visually-hidden">VK</span>
+            <img src="images/telegram.png" alt="" class="social-icon" />
+            <span class="visually-hidden">Tg</span>
             <span>akvarelka_na_ohote</span>
             </a>
             <a href="mailto:anninferno05@mail.ru" class="social-link">
-            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/d4aa3c52c389a0d2e191eea9c1a67458e965e135eb749a80b48343811c0b622d?placeholderIfAbsent=true&apiKey=9d5b60779a8442acadf65418b20b9871" alt="" class="social-icon" />
+            <img src="images/mail.png" alt="" class="social-icon" />
             <span class="visually-hidden">Email</span>
             <span>anninferno05@mail.ru</span>
             </a>

@@ -5,6 +5,7 @@
     flex-grow: 1;
     flex-basis: 0;
     width: fit-content;
+    margin-bottom: 0px;
 }
   
 .cta-button-inner {
@@ -14,6 +15,7 @@
     padding: 11px 23px;
     font-size: 20px;
     font-family: Comfortaa;
+    margin-bottom: 0px;
 }
 
 .cta-button-inner:hover {
@@ -23,7 +25,42 @@
     transition-duration: 0.2s;
     font-size: 20px;
     font-family: Comfortaa;
+    margin-bottom: 0px;
 }
+
+
+
+/* .cta-button-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-basis: 0;
+    width: fit-content;
+    bottom: 0px;
+} */
+  
+.cta-button-inner-2 {
+    border-radius: 20px;
+    background-color: #C49686;
+    color:#F0E9E3;
+    padding: 11px 23px;
+    font-size: 20px;
+    font-family: Comfortaa;
+    bottom: 0px;
+}
+
+.cta-button-inner-2:hover {
+    background-color: #F0E9E3;
+    color: #C49686;
+    box-shadow: 0px 0px 10px 2px #786761;
+    transition-duration: 0.2s;
+    font-size: 20px;
+    font-family: Comfortaa;
+    bottom: 0px;
+}
+
+
+
   
 .catalog-button-1 {
     border-radius: 20px;
@@ -35,6 +72,10 @@
     padding: 22px 19px;
     font-size: 20px;
     font-family: Comfortaa;
+    outline-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 

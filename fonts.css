@@ -18,3 +18,13 @@ p {
     font-size: 40px;
     font-family: Comfortaa;
 }
+
+.custom-toy-title {
+    font-weight: 700;
+    font-size: 40px;
+    font-family: Comfortaa;
+    align-self: stretch;
+    color: #786761;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
