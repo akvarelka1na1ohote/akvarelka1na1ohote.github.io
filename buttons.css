@@ -6,6 +6,8 @@
     flex-basis: 0;
     width: fit-content;
     margin-bottom: 0px;
+    outline-style: none;
+
 }
   
 .cta-button-inner {
@@ -16,6 +18,7 @@
     font-size: 20px;
     font-family: Comfortaa;
     margin-bottom: 0px;
+    border: 0px;
 }
 
 .cta-button-inner:hover {
@@ -26,6 +29,13 @@
     font-size: 20px;
     font-family: Comfortaa;
     margin-bottom: 0px;
+}
+
+.new-button {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 25px;
 }
 
 
@@ -47,6 +57,9 @@
     font-size: 20px;
     font-family: Comfortaa;
     bottom: 0px;
+    border: 0px;
+    width: 305px;
+    height: 55px;
 }
 
 .cta-button-inner-2:hover {
@@ -69,13 +82,15 @@
     /* padding: 11px 23px; */
     /* display: flex; */
     gap: 17px;
-    padding: 22px 19px;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    padding-top: 20px;
+    padding-bottom: 22px;
+    width: 386px;
     font-size: 20px;
     font-family: Comfortaa;
-    outline-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border: 0px;
+
 }
 
 
@@ -102,9 +117,31 @@
     background-color: #c49686;
     display: flex;
     gap: 17px;
-    padding: 16px 19px;
+    padding: 22px 19px;
     align-items: center;
+    color:#F0E9E3;
+    font-size: 20px;
+    font-family: Comfortaa;
+    border: 0px;
 }
+
+.catalog-button:hover {
+    background-color: #F0E9E3;
+    color: #C49686;
+    box-shadow: 0px 0px 10px 2px #786761;
+    transition-duration: 0.2s;
+    font-size: 20px;
+    font-family: Comfortaa;
+    /* display: flex; */
+    /* gap: 17px; */
+    padding: 22px 19px;
+}
+  
+.catalog-button-text {
+    flex-grow: 1;
+}
+
+
 
 .catalog-button-text {
     flex-grow: 1;
@@ -116,25 +153,6 @@
     width: 24px;
 }
 
-
-.catalog-button {
-    border-radius: 20px;
-    background-color: #c49686;
-    display: flex;
-    gap: 17px;
-    padding: 16px 19px;
-    align-items: center;
-}
-
-.catalog-button-text {
-    flex-grow: 1;
-}
-
-.catalog-button-icon {
-    aspect-ratio: 1.72;
-    object-fit: contain;
-    width: 24px;
-}
 
 
 .custom-toy-button {
