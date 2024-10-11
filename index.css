@@ -692,9 +692,9 @@
 .modal_content {
     /* padding: 24px; */
     /* padding-left: 81px; */
-    margin: 5% auto;
+    margin: 3% auto;
     width: 996px;
-    height: 673.13px;
+    /* height: 673.13px; */
     background-color: #C49686;
     border-radius: 28px;
 }
@@ -706,7 +706,7 @@
     flex-direction: column;
     font-family: Comfortaa;
     color: #786761;
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 400;
     margin-top: 30px;
     margin-bottom: 8.5px;
@@ -718,7 +718,7 @@
     width: 407px;
     height: 78px;
     background-color: #F0E9E3;
-    font-size: 25px;
+    font-size: 24px;
     border-radius: 28px;
     margin-left: 81px;
     border-width: 0px;
@@ -729,10 +729,12 @@
     width: 407px;
     height: 134px;
     background-color: #F0E9E3;
-    font-size: 25px;
+    font-size: 24px;
     border-radius: 28px;
     margin-left: 81px;
     border-width: 0px;
+    font-family: Comfortaa;
+    padding: 20px
 
 }
 
@@ -741,10 +743,12 @@
     width: 407px;
     height: 201px;
     background-color: #F0E9E3;
-    font-size: 25px;
+    font-size: 24px;
     border-radius: 28px;
     margin-left: 81px;
     border-width: 0px;
+    font-family: Comfortaa;
+    padding: 20px
 
 }
 
@@ -755,8 +759,18 @@
 input::placeholder {
     color: #C49686;
     font-family: Comfortaa;
-    font-size: 25px;
-    padding-left: 20px;
-    padding-top: 20px;
+    font-size: 24px;
+    /* padding-left: 20px; */
+    /* padding-top: 20px; */
  }
  
+ input {
+    padding: 20px
+ }
+
+
+ textarea::placeholder {
+    color: #C49686;
+    font-family: Comfortaa;
+    font-size: 24px;
+ }
