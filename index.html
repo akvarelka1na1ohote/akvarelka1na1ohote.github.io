@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="buttons.css">
     <link rel="stylesheet" href="picture.css">
+    <link rel="stylesheet" href="modal.css">
     <link rel="stylesheet" href="index.css">
 
 </head>
@@ -102,7 +103,7 @@
                     <img src="images/chicken.png" class="image_karusel" alt="Слева игрушка цыплёнок">
                 </div>
                 <div class="catalog-item catalog-item-large">
-                    <img src="images/capybara.png" class="image_karusel" alt="По центру игрушка капибара">
+                    <img src="images/capybara.png" id="CapybaraButton" class="image_karusel" alt="По центру игрушка капибара">
                 </div>
                 <!-- <div class="catalog-cta"> -->
                 <div class="catalog-item catalog-item-small">
@@ -134,7 +135,7 @@
                 <h2 class="custom-toy-title">Не нашли идеальную игрушку?</h2>
                 <p class="custom-toy-description">Мы сделаем её специально для вас! Заполните форму, и мы свяжемся с вами!</p>
                 <!-- <button class="custom-toy-button" tabindex="0">Заполнить форму</button> -->
-                    <button id="myButton" class="cta-button-inner-2">
+                    <button id="myButton-1" class="cta-button-inner-2">
                         Заполнить форму
                     </button>        
             </div>
@@ -219,42 +220,96 @@
 
     <div id="myModal" class = "modal">
         <div class = "modal_content">
-            <div id="myClose" class="close">&times;</div>
-            <p class="form_0">
-                Укажите ваше ФИО*
-            </p>
-            <input type="text" placeholder="Иванов Иван Иванович" class="form_1">
+            <div class="modal_left">
+                <p class="form_0">
+                    Укажите ваше ФИО*
+                </p>
+                <input type="text" placeholder="Иванов Иван Иванович" class="form_1">
 
             
 
-            <p class="form_0">
-                Опишите ваши пожелания*
-            </p>
+                <p class="form_0">
+                    Опишите ваши пожелания*
+                </p>
 
-            <textarea id="story" name="story" placeholder="Мне нужен зайчик с крыльями" class="form_2" rows="5" cols="33"></textarea>
+                <textarea id="story" name="story" placeholder="Мне нужен зайчик с крыльями" class="form_2" rows="5" cols="33"></textarea>
 
-            <!-- <input type="text" placeholder="Мне нужен зайчик с крыльями" class="form_2"> -->
-            
-            <p class="form_0">
-                Как с вами связаться?*
-            </p>
+                <!-- <input type="text" placeholder="Мне нужен зайчик с крыльями" class="form_2"> -->
+                
+                <p class="form_0">
+                    Как с вами связаться?*
+                </p>
 
-            <textarea id="story" name="story" placeholder="По номеру телефона: +7(923)345 67-89 
+                <textarea id="story" name="story" placeholder="По номеру телефона: +7(923)345 67-89 
 По почте:
 В телеграме: 
 В соцсетях:" class="form_3" rows="5" cols="33"></textarea>
 
+
+            </div>
+            
+            <div class="modal_right">
+                <p class="form_0">
+                    Прикрепите фото
+                </p>
+                <input type="file" placeholder="Перетащите файл с устройства в это окно" class="form_4">
+                
+            </div>
+            <div id="myClose" class="close">&times;</div>
             <!-- <input type="text" placeholder="По номеру телефона: \n+7(923)345 67-89 \nПо почте:\nВ телеграме: \nВ соцсетях:" class="form_3"> -->
             
-            <p class="form_0">
-                Прикрепите фото
-            </p>
-            <input type="file" placeholder="Перетащите файл с устройства в это окно" class="form_4">
             
 
         </div>
     </div>
 
+
+    <div id="CapybaraModal" class = "modal_card">
+        <div class = "modal_card_content">
+            <div class="modal_card_left">
+                <div>
+                    <img src="images/capybara.png" id="CapybaraModal" class="modal_card_image" alt="По центру игрушка капибара">
+                </div>
+            </div>
+            
+            <div class="modal_card_right">
+                <div class="modal_card_right-1">
+
+                    <p class="modal_card_name">
+                        Капибара
+                    </p>
+                    
+                    <p class="modal_card_ch">
+                        Характеристики
+                    </p>
+                    
+                    <p class="modal_card_txt">
+                        Вес: 550 г
+                        <br /><br />
+                        Высота: 25 см
+                        <br /><br />
+                        Цена: 2800 руб
+                    </p>
+                </div>
+
+                <div class="modal_card_right-2">
+                
+                    <div>
+                        <button class = "modal_card_button">
+                            Заказать
+
+                        </button>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div id="myClose" class="CapybaraClose">&times;</div>
+            
+
+        </div>
+    </div>
 
 
 
