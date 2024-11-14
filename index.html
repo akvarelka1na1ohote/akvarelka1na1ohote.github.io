@@ -18,8 +18,8 @@
         <div class="navigation-menu">
             <img class="logo" src="images/logo 4.png" alt="Логотип компании">
             
-            <a href="#" class="menu-item">главная</a>
-            <a href="#" class="menu-item">каталог</a>
+            <a href="index.html" class="menu-item">главная</a>
+            <a href="catalog.html" class="menu-item">каталог</a>
             <a href="#own_order" class="menu-item">индивидуальный заказ</a>
             <a href="#reviews" class="menu-item">отзывы</a>
         </div>
@@ -96,18 +96,18 @@
         <h2 class="favorite-toys-title">Любимые игрушки моих клиентов</h2>
         <!-- <img src="images/left_strelka.png" alt="посмотреть вариант слева" class="catalog-arrow" /> -->
         <div class="catalog-content">
-            <img src="images/left_strelka.png" alt="посмотреть вариант слева" class="catalog-arrow-left" />
+            <img id='carusel_left' src="images/left_strelka.png" alt="посмотреть вариант слева" class="catalog-arrow-left" />
             
             <div class="catalog-items">
                 <div class="catalog-item catalog-item-small">
-                    <img src="images/chicken.png" class="image_karusel" alt="Слева игрушка цыплёнок">
+                    <img id='carusel_1' src="images/chicken.png" class="image_karusel" alt="Слева игрушка цыплёнок">
                 </div>
                 <div class="catalog-item catalog-item-large">
-                    <img src="images/capybara.png" id="CapybaraButton" class="image_karusel" alt="По центру игрушка капибара">
+                    <img id='carusel_2' src="images/capybara.png" class="image_karusel" alt="По центру игрушка капибара">
                 </div>
                 <!-- <div class="catalog-cta"> -->
                 <div class="catalog-item catalog-item-small">
-                    <img src="images/rabbit.png" class="image_karusel" alt="Справа игрушка кролик">
+                    <img id='carusel_3' src="images/rabbit.png" class="image_karusel" alt="Справа игрушка кролик">
                 </div>
                 <!-- <div class="cta-button">
                     <button class="catalog-button-1">
@@ -116,7 +116,7 @@
                 </div> -->
             </div>
 
-            <img src="images/right_strelka.png" alt="посмотреть вариант справа" class="catalog-arrow-right" />
+            <img id='carusel_right' src="images/right_strelka.png" alt="посмотреть вариант справа" class="catalog-arrow-right" />
         </div>
         <!-- <img src="images/right_strelka.png" alt="посмотреть вариант справа" class="catalog-arrow" /> -->
     </section>
@@ -249,7 +249,7 @@
             </div>
             
             <div class="modal_right">
-                <p class="form_0">
+                <p class="form_0-1">
                     Прикрепите фото
                 </p>
                 <input type="file" placeholder="Перетащите файл с устройства в это окно" class="form_4">
@@ -268,32 +268,45 @@
         <div class = "modal_card_content">
             <div class="modal_card_left">
                 <div>
-                    <img src="images/capybara.png" id="CapybaraModal" class="modal_card_image" alt="По центру игрушка капибара">
+                    <img src="images/capybara.png" id="modal_image" class="modal_card_image" alt="Игрушка капибара">
                 </div>
             </div>
             
             <div class="modal_card_right">
-                <div class="modal_card_right-1">
+                <div>
+                    <div class="modal_card_right-1">
 
-                    <p class="modal_card_name">
-                        Капибара
-                    </p>
-                    
-                    <p class="modal_card_ch">
-                        Характеристики
-                    </p>
-                    
-                    <p class="modal_card_txt">
-                        Вес: 550 г
-                        <br /><br />
-                        Высота: 25 см
-                        <br /><br />
-                        Цена: 2800 руб
-                    </p>
+                        <p id="modal_name" class="modal_card_name">
+                            Капибара
+                        </p>
+    
+                        
+                        <div id="myCapybaraClose" class="CapybaraClose">&times;</div>
+                        
+                        
+                    </div>
+    
+                    <div>
+                        <p class="modal_card_ch">
+                            Характеристики
+                        </p>
+                        
+                        <p id="modal_characteristics" class="modal_card_txt">
+                            Вес: 550 г
+                            <br /><br />
+                            Высота: 25 см
+                            <br /><br />
+                            Цена: 2800 руб
+                        </p>
+                    </div>
                 </div>
+                
+
 
                 <div class="modal_card_right-2">
                 
+                                      
+
                     <div>
                         <button class = "modal_card_button">
                             Заказать
@@ -305,7 +318,6 @@
 
 
             </div>
-            <div id="myClose" class="CapybaraClose">&times;</div>
             
 
         </div>
@@ -313,6 +325,8 @@
 
 
 
-    <script src="index.js"></script>
+    <script src="form_modal.js"></script>
+    
+    <script src="photo_modal.js"></script>
 </body>
 </html>

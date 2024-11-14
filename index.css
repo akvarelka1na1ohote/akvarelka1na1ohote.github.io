@@ -487,6 +487,7 @@
     align-self: stretch;
     margin: auto 0;
     margin-right: 58px;
+    cursor: pointer;
 }
 
 .catalog-arrow-right {
@@ -496,6 +497,7 @@
     align-self: stretch;
     margin: auto 0;
     margin-left: 58px;
+    cursor: pointer;
 }
 
 .review-content {

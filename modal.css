@@ -51,6 +51,18 @@
     margin-left: 101px;
 }
 
+.form_0-1 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-family: Comfortaa;
+    color: #786761;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 8.5px;
+}
+
 
 .form_1 {
     width: 407px;
@@ -127,8 +139,10 @@ input::placeholder {
     color: #F0E9E3;
     float: right;
     cursor: pointer;
-    padding-top: 10px;
-    padding-right: 200px;
+    margin-top: 10px;
+    margin-right: 0px;
+    /* border: 10px;
+    border-color: #786761; */
  }
 
 
@@ -146,17 +160,29 @@ input::placeholder {
 }
 
 .modal_card_content {
-    margin: 3% auto;
+    margin: 10% auto;
     width: 795px;
     background-color: #ffffff;
     border-radius: 34px;
     display: flex;
     border-color: #786761;
-    border: 2px;
+    border: 2px solid;
 }
+
+
+.modal_card_left {
+    width: 50%;
+    height: 100%;
+}
+
 
 .modal_card_image {
     border-radius: 34px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    height: 100%;
+    width: 100%;
+    
 }
 
 
@@ -164,7 +190,23 @@ input::placeholder {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 50%;
 }
+
+.modal_card_right-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.modal_card_right-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
 
 
 
@@ -176,7 +218,7 @@ input::placeholder {
     color: #786761;
     font-size: 40px;
     font-weight: 700;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 8.5px;
     margin-left: 20px;
 }
@@ -209,17 +251,21 @@ input::placeholder {
 
 
 .modal_card_button {
-    border-radius: 20px;
+    border-radius: 20px;    
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
     background-color: #FF9F9F;
     color:#786761;
     gap: 17px;
     padding-top: 20px;
     padding-bottom: 22px;
-    width: 387px;
+    width: 100%;
+    height: 67px;
     font-size: 20px;
     font-family: Comfortaa;
     border: 0px;
     bottom: 0px;
+
 
 }
 
@@ -238,5 +284,4 @@ input::placeholder {
   
 .modal_card_button_text {
     flex-grow: 1;
-}
 }

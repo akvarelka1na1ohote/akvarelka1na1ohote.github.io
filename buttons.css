@@ -7,6 +7,7 @@
     width: fit-content;
     margin-bottom: 0px;
     outline-style: none;
+    cursor: pointer;
 
 }
   
@@ -19,6 +20,7 @@
     font-family: Comfortaa;
     margin-bottom: 0px;
     border: 0px;
+    cursor: pointer;
 }
 
 .cta-button-inner:hover {
@@ -29,6 +31,7 @@
     font-size: 20px;
     font-family: Comfortaa;
     margin-bottom: 0px;
+    cursor: pointer;
 }
 
 .new-button {
@@ -36,6 +39,7 @@
     justify-content: center;
     width: 100vw;
     margin-top: 25px;
+    cursor: pointer;
 }
 
 
@@ -60,6 +64,7 @@
     border: 0px;
     width: 305px;
     height: 55px;
+    cursor: pointer;
 }
 
 .cta-button-inner-2:hover {
@@ -70,6 +75,7 @@
     font-size: 20px;
     font-family: Comfortaa;
     bottom: 0px;
+    cursor: pointer;
 }
 
 
@@ -90,6 +96,7 @@
     font-size: 20px;
     font-family: Comfortaa;
     border: 0px;
+    cursor: pointer;
 
 }
 
@@ -104,6 +111,7 @@
     /* display: flex; */
     /* gap: 17px; */
     padding: 22px 19px;
+    cursor: pointer;
 }
   
 .catalog-button-text {
@@ -123,6 +131,7 @@
     font-size: 20px;
     font-family: Comfortaa;
     border: 0px;
+    cursor: pointer;
 }
 
 .catalog-button:hover {
@@ -135,6 +144,7 @@
     /* display: flex; */
     /* gap: 17px; */
     padding: 22px 19px;
+    cursor: pointer;
 }
   
 .catalog-button-text {
