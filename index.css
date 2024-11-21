@@ -534,30 +534,30 @@
     display: flex;
     gap: 20px;
     align-items: center;
-    border-color: #786761;
-    border-width: 2px;
+    /* outline-color: #786761;
+    outline: 2px solid; */
 }
 
 .review-item {
     border-radius: 34px;
     /* background-color: #c49686; */
-    border-color: #786761;
-    border: 2px;
+    outline-color: #786761;
+    outline: 2px solid;
     display: flex;
 }
 
 .review-item-small {
     width: 305px;
     height: 433px;
-    border-color: #786761;
-    border: 2px;
+    outline-color: #786761;
+    outline: 2px solid;
 }
 
 .review-item-large {
     width: 386px;
     height: 548px;
-    border-color: #786761;
-    border: 2px;
+    outline-color: #786761;
+    outline: 2px solid;
 }
 
 .review-cta {

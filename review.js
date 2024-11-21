@@ -41,11 +41,11 @@ function updateCaruselReview () {
 }
 
 carusel_review_left.onclick = function() {
-    current_start_index = (current_start_index_2-1+6);
+    current_start_index_2 = (current_start_index_2-1+6);
     updateCaruselReview();
 }
 
 carusel_review_right.onclick = function() {
-    current_start_index = (current_start_index_2+1);
+    current_start_index_2 = (current_start_index_2+1);
     updateCaruselReview();
 }
