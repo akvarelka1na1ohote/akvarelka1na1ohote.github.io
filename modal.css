@@ -251,9 +251,10 @@ input::placeholder {
 
 
 .modal_card_button {
-    border-radius: 20px;    
+    border-radius: 34px;    
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
     background-color: #FF9F9F;
     color:#786761;
     gap: 17px;
