@@ -96,7 +96,7 @@
     width: 100%;
     max-width: 1285px;
     flex-direction: column;
-    margin-top: 200px;
+    margin-top: 116px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -705,3 +705,23 @@
 }
 
 
+:root { 
+    --header-height: 98px ;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--header-height);
+}
+
+body { 
+    padding-top: var(--header-height);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    height: var(--header-height);
+}
