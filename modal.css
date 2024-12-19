@@ -113,18 +113,18 @@
     background-color: #FF9F9F;
     color:#786761;
     gap: 17px;
-    padding-top: 20px;
-    padding-bottom: 22px;
+    padding-top: 15px;
+    padding-bottom: 30px;
     margin-left: 20px;
     margin-top: 40px;
-    margin-bottom: 100px;
-    width: 100%;
+    margin-bottom: 100px; 
+    width: 80%;
     height: 67px;
-    font-size: 20px;
+    font-size: 30px;
     font-family: Comfortaa;
-    outline: 2px;
-    outline-style: solid;
-    outline-color: #ffffff;
+    border: 2px;
+    border-style: solid;
+    border-color: #ffffff;
     bottom: 0px;
     cursor: pointer;
 
@@ -137,11 +137,11 @@
     color: #ffffff;
     /* box-shadow: 0px 0px 10px 2px #786761; */
     transition-duration: 0.2s;
-    font-size: 20px;
+    font-size: 30px;
     font-family: Comfortaa;
     /* display: flex; */
     /* gap: 17px; */
-    padding: 22px 19px;
+    /* padding: 22px 19px; */
 }
   
 .modal_button_text {
@@ -210,8 +210,9 @@ textarea::placeholder {
     background-color: #ffffff;
     border-radius: 34px;
     display: flex;
-    outline-color: #786761;
-    outline: 2px solid;
+    border: 2px;
+    border-style: solid;
+    border-color: #786761;
 }
 
 

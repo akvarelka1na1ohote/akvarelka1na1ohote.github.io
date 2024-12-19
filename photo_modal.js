@@ -1,31 +1,37 @@
 const advantagesData = [
     {
         imageScr: "images/chicken.png",
+        alt: "Игрушка цыплёнок",
         title: "Цыпа",
         description: "Вес: 300 г\nВысота: 12 см (тело), ноги 10 см\nЦена: 500 руб",
     }, 
     {
         imageScr: "images/capybara.png",
+        alt: "Игрушка Капибара",
         title: "Капибара",
         description: "Вес: 550 г\nВысота: 25 см\nЦена: 2800 руб",
     }, 
     {
         imageScr: "images/rabbit.png",
+        alt: "Игрушка кролик",
         title: "Зайка",
         description: "Вес: 300 г\nВысота: 10 см (тело), ушки 8 см\nЦена: 500 руб",
     }, 
     {
         imageScr: "images/frog.png",
+        alt: "Игрушка лягушка",
         title: "Лягушонок",
         description: "Вес: 80 г\nВысота: 10 см\nЦена: 700 руб\nВ комплекте идут булавки",
     }, 
     {
         imageScr: "images/cat_tykva_small.png",
+        alt: "Игрушка маленькая кототыква",
         title: "Кототыква\nмини",
         description: "Вес: 300 г\nВысота: 10 см\nШляпка снимается\nЦена: 800 руб",
     }, 
     {
         imageScr: "images/dragon.png",
+        alt: "Игрушка дракон",
         title: "Дракончик",
         description: "Вес: 700 г\nДлина: 25 см\nЦена: 3.500 руб",
     }, 
@@ -48,7 +54,9 @@ function updateCarusel () {
     carusel_2.src = advantagesData[(current_start_index+1)%6].imageScr;
     carusel_3.src = advantagesData[(current_start_index+2)%6].imageScr;
 
-    
+    carusel_1.alt = advantagesData[current_start_index %6].alt;
+    carusel_2.alt = advantagesData[(current_start_index+1)%6].alt;
+    carusel_3.alt = advantagesData[(current_start_index+2)%6].alt;
 }
 
 carusel_left.onclick = function() {
