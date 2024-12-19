@@ -725,3 +725,14 @@ header {
 
     height: var(--header-height);
 }
+
+@media (prefers-reduced-motion) {
+    * {
+        &,
+        &::before,
+        &::after {
+            animation: none !important;
+            transition: 0.01s !important;
+        }
+    }
+}
